@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchor" prefHeight="265.0" prefWidth="755.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, derive(rgba(0,0,0,0.5), -20%), 10, 0, 4, 4); -fx-border-color: rgb(0,0,0,0.1); -fx-border-width: 2px;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Loader">
+   <children>
+      <ImageView fitHeight="299.0" fitWidth="296.0" layoutX="-24.0" layoutY="-22.0" style="-fx-opacity: 0.1;" AnchorPane.bottomAnchor="-16.0" AnchorPane.topAnchor="-20.0">
+         <image>
+            <Image url="@assets/20461-200.png" />
+         </image>
+      </ImageView>
+      <JFXProgressBar cache="true" layoutX="116.0" layoutY="122.0" prefHeight="3.0" prefWidth="455.0" AnchorPane.bottomAnchor="141.0" AnchorPane.leftAnchor="111.0" AnchorPane.rightAnchor="112.0" AnchorPane.topAnchor="120.0" />
+      <Text fx:id="loading_text" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Starting up..." textAlignment="CENTER" wrappingWidth="790.8232421875" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="Segoe UI" size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

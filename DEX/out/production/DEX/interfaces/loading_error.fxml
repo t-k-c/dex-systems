@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchor" maxHeight="1.7976931348623157E308" prefHeight="200.0" prefWidth="675.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, derive(rgba(0,0,0,0.5), -20%), 10, 0, 4, 4); -fx-border-color: rgb(0,0,0,0.1);" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Loader_error">
+   <children>
+      <ImageView fitHeight="161.0" fitWidth="168.0" layoutX="10.0" layoutY="113.0" style="-fx-opacity: 0.1;" AnchorPane.bottomAnchor="51.0" AnchorPane.topAnchor="113.0">
+         <image>
+            <Image url="@assets/20461-200.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="268.0" layoutY="227.0" onMouseClicked="#close" prefHeight="40.0" prefWidth="140.0" text="CLOSE" textAlignment="CENTER" />
+      <Text layoutX="6.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Software verification error" textAlignment="CENTER" wrappingWidth="661.11328125" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="6.0">
+         <font>
+            <Font name="Segoe UI" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="9.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="   We encountered an error while doing startup verifications.. Please check the Logs" textAlignment="CENTER" wrappingWidth="654.3115234375" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="7.8017578125">
+         <font>
+            <Font name="Segoe UI" size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

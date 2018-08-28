@@ -1,0 +1,7 @@
+{
+  "rpi_address":"127.0.0.1",
+  "rpi_port":1997,
+  "client_socket_server_port":1998,
+  "server_socket_address":"127.0.0.1",
+  "server_socket_port":1997
+}

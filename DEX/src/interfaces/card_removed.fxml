@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchor" prefHeight="267.0" prefWidth="659.0" style="-fx-background-color: white; -fx-effect: dropshadow(three-pass-box, derive(rgba(0,0,0,0.5), -20%), 10, 0, 4, 4); -fx-border-color: rgb(0,0,0,0.1); -fx-border-width: 2px;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Loader">
+   <children>
+      <ImageView fitHeight="299.0" fitWidth="296.0" layoutX="-24.0" layoutY="-22.0" style="-fx-opacity: 0.1;" AnchorPane.bottomAnchor="-16.0" AnchorPane.topAnchor="-20.0">
+         <image>
+            <Image url="@assets/d55e89657228964a776f7dab3c0537ca-football-red-card-icon-by-vexels.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="27.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CARD WITHDRAWN" textAlignment="CENTER" wrappingWidth="604.136726975441">
+         <font>
+            <Font name="Segoe UI" size="27.0" />
+         </font>
+      </Text>
+      <JFXButton layoutX="273.0" layoutY="199.0" prefHeight="36.0" prefWidth="113.0" text="I'M AWARE" />
+      <Text layoutX="27.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Some functionalities will be withdrawn. If it wasn't intentional, try to make sure the card is still in place" textAlignment="CENTER" wrappingWidth="604.13671875">
+         <font>
+            <Font name="Segoe UI" size="16.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
